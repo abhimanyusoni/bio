@@ -388,7 +388,7 @@
               <div class="sent-message">Your message has been sent. Thank you!</div>
 
               <div class="form-send">
-                <button type="submit" class="btn btn-large">Send Message</button>
+                <button type="submit" onclick="myfunc()" class="btn btn-large">Send Message</button>
               </div>
 
             </form>
@@ -428,6 +428,16 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script>
+    function myfunc(){
+      setTimeout(()=>{
+        document.querySelector("loading").style.display = "none";
+      }, 1000)
+      setTimeout(()=>{
+        document.querySelector("sent-message").style.display = "block";
+      }, 1500)
+    }
+  </script>
 
 </body>
 </html>
