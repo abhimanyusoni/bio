@@ -158,10 +158,10 @@ SECTION WRAPS
 #headerwrap {
   background: url(../images/imgpsh_logo.jpeg) no-repeat center top;
   margin-top: 60px;
-  padding-top: 120px;
+  padding-top: 250px;
   text-align: center;
   background-attachment: relative;
-  background-position: center center;
+  background-position: 60% center;
   min-height: 80vh;
   width: 100%;
   -webkit-background-size: 100%;
