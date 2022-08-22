@@ -202,7 +202,7 @@ SECTION WRAPS
 /* Intnro Wrap */
 
 #intro {
-  background: #000000;
+  background: #161616;
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
@@ -220,7 +220,7 @@ SECTION WRAPS
 }
 
 #skillswrap {
-  background: #000000;
+  background: #161616;
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
@@ -231,7 +231,7 @@ SECTION WRAPS
 }
 
 #footwrap {
-  background: #000000;
+  background: #161616;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -278,22 +278,22 @@ SECTION WRAPS
 }
 
 .desc p {
-  color: #000000;
+  color: #161616;
 }
 
 .desc t {
-  color: #000000;
+  color: #161616;
   font-weight: 700;
 }
 
 .desc imp {
   padding: 6px;
   color: white;
-  background: #000000;
+  background: #161616;
 }
 
 .desc more {
-  color: #000000;
+  color: #161616;
 }
 
 sm {
