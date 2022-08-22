@@ -192,6 +192,8 @@ SECTION WRAPS
   color: white;
   position: relative;
   z-index: 99;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 #headerwrap h3 {
