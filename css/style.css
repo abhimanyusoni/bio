@@ -403,3 +403,12 @@ sm {
   font-weight: 600;
   margin: 15px 0;
 }
+
+@media (max-width: 767px){
+  #headerwrap{
+    padding-top: 275px;
+  }
+  #headerwrap h1{
+    font-size: 40px;
+  }
+}
