@@ -188,11 +188,15 @@ SECTION WRAPS
 #headerwrap h1 {
   font-size: 80px;
   color: white;
+  position: relative;
+  z-index: 99;
 }
 
 #headerwrap h3 {
   font-size: 20px;
   color: white;
+  position: relative;
+  z-index: 99;
 }
 
 /* Intnro Wrap */
