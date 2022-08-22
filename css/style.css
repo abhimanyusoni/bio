@@ -156,7 +156,7 @@ SECTION WRAPS
 /* Header Wrap */
 
 #headerwrap {
-  background: url(../images/imgpsh_logo.jpeg) no-repeat center top;
+  /* background: url(../images/imgpsh_logo.jpeg) no-repeat center top; */
   margin-top: 60px;
   padding-top: 250px;
   text-align: center;
@@ -175,6 +175,14 @@ SECTION WRAPS
   position: relative;
   display: flex;
   align-items: center;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #headerwrap::after{
