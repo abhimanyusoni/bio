@@ -231,7 +231,7 @@ SECTION WRAPS
 }
 
 #footwrap {
-  background: #2f2f2f;
+  background: #363636;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -278,7 +278,7 @@ SECTION WRAPS
 }
 
 .desc p {
-  color: #2f2f2f;
+  color: #363636;
 }
 
 .desc t {
@@ -293,7 +293,7 @@ SECTION WRAPS
 }
 
 .desc more {
-  color: #95a5a6;
+  color: #363636;
 }
 
 sm {
