@@ -37,7 +37,7 @@ p {
 /* Links */
 
 a {
-  color: #1abc9c;
+  color: #bf2020;
   word-wrap: break-word;
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
   -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -137,12 +137,12 @@ By default, top navigation bar uses "fixed" position
 }
 
 #section-topbar ul#nav .active a {
-  background: #44bbaa;
+  background: #bf2020;
   border-left: 1px solid #111;
 }
 
 #section-topbar ul#nav .active a:hover {
-  background: #44bbaa;
+  background: #bf2020;
 }
 
 #section-topbar i {
@@ -265,7 +265,7 @@ SECTION WRAPS
 
 #footwrap i {
   padding-right: 8px;
-  color: #1abc9c;
+  color: #bf2020;
 }
 
 /* Copyright Wrap */
@@ -334,7 +334,7 @@ sm {
 }
 
 .contact-form .form-send button {
-  background: #44bbaa;
+  background: #bf2020;
   border: 0;
   padding: 10px 30px;
   color: #fff;

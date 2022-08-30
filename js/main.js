@@ -25,7 +25,7 @@ jQuery(document).ready(function( $ ) {
     },
     {
       value: 30,
-      color: "#ecf0f1"
+      color: "#bf2020"
     }
   ];
   var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
@@ -37,7 +37,7 @@ jQuery(document).ready(function( $ ) {
   },
   {
     value: 20,
-    color: "#ecf0f1"
+    color: "#bf2020"
   }
   ];
   var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
@@ -49,7 +49,7 @@ jQuery(document).ready(function( $ ) {
   },
   {
     value: 20,
-    color: "#ecf0f1"
+    color: "#bf2020"
   }
   ];
   var myDoughnut = new Chart(document.getElementById("figmaxd").getContext("2d")).Doughnut(doughnutData);
@@ -61,7 +61,7 @@ jQuery(document).ready(function( $ ) {
   },
   {
     value: 30,
-    color: "#ecf0f1"
+    color: "#bf2020"
   }
   ];
   var myDoughnut = new Chart(document.getElementById("sass").getContext("2d")).Doughnut(doughnutData);
@@ -73,7 +73,7 @@ jQuery(document).ready(function( $ ) {
   },
   {
     value: 30,
-    color: "#ecf0f1"
+    color: "#bf2020"
   }
   ];
   var myDoughnut = new Chart(document.getElementById("bootstraptail").getContext("2d")).Doughnut(doughnutData);
@@ -85,7 +85,7 @@ jQuery(document).ready(function( $ ) {
   },
   {
     value: 40,
-    color: "#ecf0f1"
+    color: "#bf2020"
   }
   ];
   var myDoughnut = new Chart(document.getElementById("matui").getContext("2d")).Doughnut(doughnutData);
@@ -97,7 +97,7 @@ jQuery(document).ready(function( $ ) {
   },
   {
     value: 60,
-    color: "#ecf0f1"
+    color: "#bf2020"
   }
   ];
   var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
@@ -109,7 +109,7 @@ jQuery(document).ready(function( $ ) {
   },
   {
     value: 10,
-    color: "#ecf0f1"
+    color: "#bf2020"
   }
   ];
   var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
@@ -121,7 +121,7 @@ jQuery(document).ready(function( $ ) {
   },
   {
     value: 30,
-    color: "#ecf0f1"
+    color: "#bf2020"
   }
   ];
   var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
@@ -133,7 +133,7 @@ jQuery(document).ready(function( $ ) {
   },
   {
     value: 50,
-    color: "#ecf0f1"
+    color: "#bf2020"
   }
   ];
   var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
