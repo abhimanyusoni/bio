@@ -42,6 +42,54 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
 
+  // Adobe XD Chart
+  var doughnutData = [{
+    value: 80,
+    color: "#1abc9c"
+  },
+  {
+    value: 20,
+    color: "#ecf0f1"
+  }
+  ];
+  var myDoughnut = new Chart(document.getElementById("figmaxd").getContext("2d")).Doughnut(doughnutData);
+
+  // SASS/Less Chart
+  var doughnutData = [{
+    value: 70,
+    color: "#1abc9c"
+  },
+  {
+    value: 30,
+    color: "#ecf0f1"
+  }
+  ];
+  var myDoughnut = new Chart(document.getElementById("sass").getContext("2d")).Doughnut(doughnutData);
+
+  // bootstraptail Chart
+  var doughnutData = [{
+    value: 70,
+    color: "#1abc9c"
+  },
+  {
+    value: 30,
+    color: "#ecf0f1"
+  }
+  ];
+  var myDoughnut = new Chart(document.getElementById("bootstraptail").getContext("2d")).Doughnut(doughnutData);
+
+  // MUI Chart
+  var doughnutData = [{
+    value: 60,
+    color: "#1abc9c"
+  },
+  {
+    value: 40,
+    color: "#ecf0f1"
+  }
+  ];
+  var myDoughnut = new Chart(document.getElementById("matui").getContext("2d")).Doughnut(doughnutData);
+
   // WordPress Chart
   var doughnutData = [{
     value: 40,
