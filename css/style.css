@@ -343,7 +343,7 @@ sm {
 }
 
 .contact-form .form-send button:hover {
-  background: #23c8b1;
+  background: #bf2020;
 }
 
 .contact-form .validate {
@@ -369,7 +369,7 @@ sm {
   border-radius: 50%;
   width: 24px;
   height: 24px;
-  border: 3px solid #18d26e;
+  border: 3px solid #bf2020;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -430,4 +430,9 @@ sm {
     font-size: 16px;
     line-height: 1.6;
   }
+}
+
+#work .col-lg-5 img{
+  border: 2px solid #bf2020;
+  border-radius: 10px;
 }
