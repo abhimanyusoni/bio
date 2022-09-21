@@ -241,11 +241,11 @@ SECTION WRAPS
   color: white;
 }
 
-#skillswrap canvas{
+#skillswrap .canvas-wrap{
   position: relative;
 }
 
-#skillswrap canvas::after{
+#skillswrap .canvas-wrap::after{
   content: attr(data-value);
   position: absolute;
   left: 50%;
