@@ -475,6 +475,18 @@ sm {
   margin-top: 20px;
 }
 
+img.banner_img {
+  max-height: 600px;
+  position: absolute;
+  /* height: 100%; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 80vh;
+  object-fit: cover;
+  object-position: top center;
+}
+
 @media (max-width: 1199px){
   #work .row .col-lg-5:nth-child(2){
     margin-top: 20px;
