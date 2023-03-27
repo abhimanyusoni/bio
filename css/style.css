@@ -459,3 +459,11 @@ sm {
   margin-bottom: 10px;
   display: inline-block;
 }
+
+.portfolio_techs{
+  text-transform: uppercase;
+    color: #bf2020;
+    font-weight: 700;
+    display: block;
+    margin-top: 10px;
+}
