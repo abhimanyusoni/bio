@@ -454,3 +454,8 @@ sm {
   object-fit: contain;
   background: #fff;
 }
+
+.portfolio_title{
+  margin-bottom: 10px;
+  display: inline-block;
+}
