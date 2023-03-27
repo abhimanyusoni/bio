@@ -20,15 +20,27 @@ jQuery(document).ready(function( $ ) {
 
   // JavaScript Chart
   var doughnutData = [{
-      value: 70,
+      value: 80,
       color: "#bf2020"
     },
     {
-      value: 30,
+      value: 20,
       color: "#ecf0f1"
     }
   ];
   var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+
+    // Electron Chart
+    var doughnutData = [{
+      value: 50,
+      color: "#bf2020"
+    },
+    {
+      value: 50,
+      color: "#ecf0f1"
+    }
+  ];
+  var myDoughnut = new Chart(document.getElementById("electron").getContext("2d")).Doughnut(doughnutData);
 
   // Bootstrap Chart
   var doughnutData = [{
@@ -92,15 +104,27 @@ jQuery(document).ready(function( $ ) {
 
   // WordPress Chart
   var doughnutData = [{
-    value: 40,
+    value: 55,
     color: "#bf2020"
   },
   {
-    value: 60,
+    value: 45,
     color: "#ecf0f1"
   }
   ];
   var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+
+    // WordPress Chart
+    var doughnutData = [{
+      value: 50,
+      color: "#bf2020"
+    },
+    {
+      value: 50,
+      color: "#ecf0f1"
+    }
+    ];
+    var myDoughnut = new Chart(document.getElementById("mongodb").getContext("2d")).Doughnut(doughnutData);
 
   // HTML Chart
   var doughnutData = [{
