@@ -474,3 +474,11 @@ sm {
   padding-top: 20px;
   margin-top: 20px;
 }
+
+@media (max-width: 1199px){
+  #work .row .col-lg-5 + .col-lg-4{
+    border-top: none !important;
+    padding-top: 0px !important;
+    margin-top: 20px !important;
+  }
+}
