@@ -309,6 +309,7 @@ SECTION WRAPS
 
 .desc p {
   color: #161616;
+  margin: 0;
 }
 
 .desc t {
@@ -466,4 +467,10 @@ sm {
     font-weight: 700;
     display: block;
     margin-top: 10px;
+}
+
+#work .row .col-lg-5:not(:nth-child(2)), #work .row .col-lg-5 + .col-lg-4:not(:nth-child(3)){
+  border-top: 1px solid #dbdbdb;
+  padding-top: 20px;
+  margin-top: 20px;
 }
