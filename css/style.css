@@ -476,6 +476,9 @@ sm {
 }
 
 @media (max-width: 1199px){
+  #work .row .col-lg-5:nth-child(2){
+    margin-top: 20px;
+  }
   #work .row .col-lg-5 + .col-lg-4{
     border-top: none !important;
     padding-top: 0px !important;
