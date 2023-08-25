@@ -1,13 +1,12 @@
-/**
-*  Template Name: Kelvin
-*  Template URL: https://templatemag.com/kelvin-bootstrap-resume-template/
-*  Author: TemplateMag.com
-*  License: https://templatemag.com/license/
-*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  font-family: "Poppins", sans-serif;
+}
 
 body {
   background-color: #f2f2f2;
-  font-family: "Lato";
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 16px;
   color: #555;
@@ -107,7 +106,7 @@ By default, top navigation bar uses "fixed" position
   border-right: 1px solid #222;
   /* For IE, the outcast */
   zoom: 1;
-  *display: inline;
+  display: inline;
 }
 
 #section-topbar ul#nav>li {
