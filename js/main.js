@@ -102,6 +102,18 @@ var myDoughnut = new Chart(document.getElementById("aws").getContext("2d")).Doug
   ];
   var myDoughnut = new Chart(document.getElementById("bootstraptail").getContext("2d")).Doughnut(doughnutData);
 
+  // angular Chart
+  var doughnutData = [{
+    value: 70,
+    color: "#bf2020"
+  },
+  {
+    value: 30,
+    color: "#ecf0f1"
+  }
+  ];
+  var myDoughnut = new Chart(document.getElementById("angular").getContext("2d")).Doughnut(doughnutData);
+
   // MUI Chart
   var doughnutData = [{
     value: 60,
