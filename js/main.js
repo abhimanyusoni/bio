@@ -30,6 +30,17 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
 
+  var doughnutData = [{
+    value: 80,
+    color: "#bf2020"
+  },
+  {
+    value: 20,
+    color: "#ecf0f1"
+  }
+];
+var myDoughnut = new Chart(document.getElementById("chatgpt").getContext("2d")).Doughnut(doughnutData);
+
     // Electron Chart
     var doughnutData = [{
       value: 80,
