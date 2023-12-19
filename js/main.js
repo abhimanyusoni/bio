@@ -67,11 +67,11 @@ var myDoughnut = new Chart(document.getElementById("aws").getContext("2d")).Doug
 
   // Bootstrap Chart
   var doughnutData = [{
-    value: 80,
+    value: 90,
     color: "#bf2020"
   },
   {
-    value: 20,
+    value: 10,
     color: "#ecf0f1"
   }
   ];
